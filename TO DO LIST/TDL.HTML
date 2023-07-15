@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="TDL.CSS">
+</head>
+<body>
+  <h1>To-Do List</h1>
+  <div id="taskInputContainer">
+    <input id="taskInput" type="text" placeholder="Enter a task">
+    <select id="categorySelect">
+      <option value="default">Select Category</option>
+      <option value="Design">Design</option>
+      <option value="Development">Development</option>
+      <option value="Content">Content</option>
+      <option value="Household">Household</option>
+      <option value="Work">Work</option>
+    </select>
+    <input id="deadlineInput" type="date">
+    <select id="prioritySelect">
+      <option value="default">Select Priority</option>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+    <button onclick="addTask()">Add Task</button>
+  </div>
+  
+  <table id="taskTable">
+    <thead>
+      <tr>
+        <th>Task</th>
+        <th>Category</th>
+        <th>Deadline</th>
+        <th>Priority</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="taskList"></tbody>
+  </table>
+
+  <script src="TDL.JS"></script>
+</body>
+</html>

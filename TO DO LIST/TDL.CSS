@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-image: url('TDL2.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: #0e0101;
+  text-align: center;
+  border: gray;
+}
+tr{
+  text-align: center;
+}
+#taskInputContainer {
+  margin-bottom: 30px;
+  border-style: solid;
+  background: #dddddd
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 6px;
+  margin-right: 121px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  background-color: gray;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
